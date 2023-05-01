@@ -1,0 +1,100 @@
+######
+avatar: /images/avatar.jpeg
+favicon: /images/fav.png
+excerpt_length: 300
+grey_mode: false
+since: 2018
+
+menu:
+  archives: /archives/ || archive
+  about: /about/ || account_circle
+  meu blog: https://xxxx-xxx/ || rss_feed
+  #documentação: https://garybear.cn/hexo-theme-insulin/doc/#/ || insert_drive_file
+
+
+social:
+  E-Mail: mailto:osvaldo.react37@gmail.com || fa fa-envelope
+  GitHub: https://github.com/OsvaldoArk || fab fa-github
+  Linkedin: https://br.linkedin.com/in/osvaldo-ark-826838132 || fab fa-linkedin
+  #Weibo: https://weibo.com/kb1000fx || fab fa-weibo 
+
+
+# Google Adsense广告代码
+google_adsense:
+  enabled: false
+  auto_ad: true
+  pub_id: 
+  footer_slot: 
+  banner_slot: 
+
+
+passage_end_tag:
+  enabled: true
+  text: --- The End ---
+
+# renderização
+math:
+  enabled: true
+  engine: mathjax 
+  mathjax:
+    cdn: https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+    mhchem: true
+  katex:
+    cdn_css: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css
+    cdn_js: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js
+    auto_render: https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js
+
+# mermaid 
+mermaid:
+  enable: true 
+  version: "8.4.8" 
+  startOnload: true  #default true
+  theme: 'default'    #default, forest, dark, neutral.
+##########
+
+
+# sem contagens de alho 
+busuanzi:
+  site: true
+  page: true
+  busuanzi_js: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
+##########
+
+#####Serviços tercerizados####
+# comente
+comment:
+  use: false #false或Array形式
+  ## Gitalk
+  gitalk_client_id: 
+  gitalk_client_secret: 
+  gitalk_repo: 
+  gitalk_owner: 
+  gitalk_sid_type:
+  gitalk_distractionFreeMode: true
+  ## Disqus
+  disqus_shortname:
+  ## Livere
+  livere_data_uid: 
+  ## Valine
+  valine_leancloud_app_id:
+  valine_leancloud_app_key:
+  valine_option:  #valine_option为Object形式，详见https://valine.js.org/configuration.html
+  ## 畅言
+  changyan_app_id:
+  changyan_app_key:
+  changyan_sid_type:
+
+# analise
+analytics:
+  google_analytics:
+    tracking_id: 
+    localhost_ignored: true
+  baidu_site_id:
+  cnzz_site_id:
+  tencent_site_id:
+##########
+
+search:
+  local: false
+  path: search.xml
+  placeholder: por favor insira as palavras chaves
