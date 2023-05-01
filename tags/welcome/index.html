@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/vuetify@2.2.30/dist/vuetify.min.css" rel="stylesheet">
     
-<link rel="stylesheet" href="/your-repository/css/main.css">
+<link rel="stylesheet" href="/css/main.css">
 
     
     
@@ -56,20 +56,20 @@
                     <v-row>
                         <v-col cols="2" class="d-none d-md-block">
                             <div id="sidebar" class="float-right">
-    <a href="/your-repository/" rel="home">
+    <a href="/" rel="home">
         <v-avatar size=96>
             <img id="logo" style="object-fit: cover;" src="/images/avatar.jpeg">     
         </v-avatar> 
     </a>
     <v-divider></v-divider>
     <div class="mini-menu">
-        <v-btn icon href="/your-repository/">
+        <v-btn icon href="/">
             <v-icon>home</v-icon>
         </v-btn>
-        <v-btn icon href="/your-repository/categories/">
+        <v-btn icon href="/categories/">
             <v-icon>folder</v-icon>
         </v-btn>
-        <v-btn icon href="/your-repository/tags/">
+        <v-btn icon href="/tags/">
             <v-icon>bookmark</v-icon>
         </v-btn>
         <v-btn icon @click="SetNightMode">
@@ -79,7 +79,7 @@
     <v-list id="main-menu" class="font-weight-bold" flat>
         
             
-            <v-list-item href="/your-repository/archives/" link>
+            <v-list-item href="/archives/" link>
             <v-list-item-icon><v-icon>archive</v-icon></v-list-item-icon>
             <v-list-item-content>
                 Archives
@@ -87,7 +87,7 @@
             </v-list-item>
         
             
-            <v-list-item href="/your-repository/about/" link>
+            <v-list-item href="/about/" link>
             <v-list-item-icon><v-icon>account_circle</v-icon></v-list-item-icon>
             <v-list-item-content>
                 About
@@ -108,7 +108,7 @@
         <v-list id="sub-menu" class="font-weight-medium" dense>
             
                 
-                    <v-list-item href="/your-repository/categories/teste/" link>
+                    <v-list-item href="/categories/teste/" link>
                         <v-badge :value="menuHover" transition="slide-y-transition" inline content="1" >
                             <v-hover v-model="menuHover">
                                 <v-list-item-content>
@@ -120,7 +120,7 @@
                 
             
                 
-                    <v-list-item href="/your-repository/categories/javascript/" link>
+                    <v-list-item href="/categories/javascript/" link>
                         <v-badge :value="menuHover" transition="slide-y-transition" inline content="2" >
                             <v-hover v-model="menuHover">
                                 <v-list-item-content>
@@ -172,7 +172,7 @@
   <v-col cols="12" md="8" align-self="end">
     <div id="site-header">
       <div id="site-title">
-        <a href="/your-repository/" rel="home">DevFor</a>
+        <a href="/" rel="home">DevFor</a>
       </div>
       <div id="site-description">Explicações,tutoriais e vídeos sobre programação</div>
       <div id="mobile-menu" class="d-block d-md-none">
@@ -192,12 +192,12 @@
           </v-btn>
           
             
-            <v-btn icon href="/your-repository/archives/">
+            <v-btn icon href="/archives/">
               <v-icon>archive</v-icon>
             </v-btn>
           
             
-            <v-btn icon href="/your-repository/about/">
+            <v-btn icon href="/about/">
               <v-icon>account_circle</v-icon>
             </v-btn>
           
@@ -227,11 +227,11 @@
             <v-timeline-item fill-dot small color="secondary lighten-2">
                 <div class="timeline-item-post d-none d-md-block">
                     <span class="timeline-item-time">2023.04.27</span>
-                    <a href="/your-repository/2023/04/27/hello-world/" class="timeline-item-title">Hello World</a>
+                    <a href="/2023/04/27/hello-world/" class="timeline-item-title">Hello World</a>
                 </div>
                 <div class="timeline-item-post-mobile d-block d-md-none">
                     <span class="timeline-item-time">2023.04.27</span><br>
-                    <a href="/your-repository/2023/04/27/hello-world/" class="timeline-item-title">Hello World</a>
+                    <a href="/2023/04/27/hello-world/" class="timeline-item-title">Hello World</a>
                 </div>
                 <v-divider></v-divider>
             </v-timeline-item>
@@ -259,7 +259,7 @@
 <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/js-base64@3.5.2/base64.min.js"></script>
 
-<script src="/your-repository/js/main.js"></script>
+<script src="/js/main.js"></script>
 
 
 
