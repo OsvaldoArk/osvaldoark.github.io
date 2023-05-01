@@ -1,0 +1,66 @@
+.typo {
+  line-height: 1.5;
+  word-wrap: break-word;
+/* small */
+/* mark */
+/* h1 - h6 */
+}
+.typo small {
+  font-size: 80%;
+}
+.typo mark {
+  margin: 0 5px;
+  padding: 2px;
+  background: #fffdd1;
+  border-bottom: 1px solid #ffedce;
+}
+.typo h1,
+.typo h2,
+.typo h3,
+.typo h4,
+.typo h5,
+.typo h6 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  color: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  line-height: 1.35;
+}
+.typo h1:last-child,
+.typo h2:last-child,
+.typo h3:last-child,
+.typo h4:last-child,
+.typo h5:last-child,
+.typo h6:last-child {
+  margin-bottom: 0;
+}
+.typo h1 small,
+.typo h2 small,
+.typo h3 small,
+.typo h4 small,
+.typo h5 small,
+.typo h6 small {
+  color: ;
+  font-weight: 400;
+  font-size: 65%;
+  line-height: 1;
+}
+.typo h1 {
+  font-size: 1.75em;
+}
+.typo h2 {
+  font-size: 1.5em;
+}
+.typo h3 {
+  font-size: 1.2em;
+}
+.typo h4 {
+  font-size: 1em;
+}
+.typo h5 {
+  font-size: 0.85em;
+}
+.typo h6 {
+  font-size: 0.65em;
+}
